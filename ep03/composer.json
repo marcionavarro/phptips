@@ -1,0 +1,29 @@
+{
+  "name": "marcionavarro/phptips003",
+  "description": "Enviando E-mail Autenticados com PHPMailer | PHP Tips #003",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "v6.9.3",
+    "vlucas/phpdotenv": "5.4.x-dev"
+  }
+}
