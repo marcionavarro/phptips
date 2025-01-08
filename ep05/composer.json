@@ -1,0 +1,31 @@
+{
+  "name": "marcionavarro/phptips005",
+  "description": "GERANDO BLOG COM PAGINAÇÃO DE RESULTADOS | PHP Tips #005",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "fakerphp/faker": "2.0.x-dev",
+    "coffeecode/datalayer": "2.0.7",
+    "coffeecode/paginator": "2.0.1",
+    "symfony/var-dumper": "7.3.x-dev"
+  }
+}

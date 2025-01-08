@@ -1,0 +1,11 @@
+# Ignorar pastas .ide e vendor em qualquer lugar do projeto
+.ide/
+vendor/
+composer.lock
+composer.phar
+
+# Arquivos padrões que geralmente devem ser ignorados
+node_modules/
+dist/
+.env
+.DS_Store
