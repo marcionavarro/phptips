@@ -1,0 +1,19 @@
+{
+  "name": "marcionavarro/phptips008",
+  "description": "Gerando Miniaturas De imagens com Cropper | PHP Tips #008",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "require": {
+    "fakerphp/faker": "2.0.x-dev",
+    "coffeecode/cropper": "2.0.4",
+    "symfony/var-dumper": "7.3.x-dev"
+  }
+}
