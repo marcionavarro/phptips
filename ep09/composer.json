@@ -1,0 +1,32 @@
+{
+  "name": "marcionavarro/phptips009",
+  "description": "ABSTRAINDO SEO E SMO ON PAGE COM OPTIMIZER | PHP TIPS #009",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "2.0.7",
+    "coffeecode/router": "2.0.2",
+    "coffeecode/optimizer": "2.1.1",
+    "league/plates": "v3.x-dev",
+    "symfony/var-dumper": "7.3.x-dev"
+  }
+}
