@@ -1,0 +1,29 @@
+{
+  "name": "marcionavarro/phptips004",
+  "description": "Rotas, Call Backs e Estrutura MVC com Router | PHP Tips #004",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "2.0.2",
+    "symfony/var-dumper": "7.3.x-dev"
+  }
+}
