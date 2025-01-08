@@ -1,0 +1,29 @@
+{
+  "name": "marcionavarro/phptips006",
+  "description": "Login Social Via Facebook com Oauth 2 Client | PHP Tips #006",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "league/oauth2-facebook": "2.2.0",
+    "vlucas/phpdotenv": "5.4.x-dev"
+  }
+}
