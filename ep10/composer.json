@@ -1,0 +1,26 @@
+{
+  "name": "marcionavarro/phptips010",
+  "description": "Upload de imagens e arquivos com UPLOADER | PHP Tips #010",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "require": {
+    "coffeecode/uploader": "2.0.4",
+    "symfony/var-dumper": "7.3.x-dev"
+  }
+}
