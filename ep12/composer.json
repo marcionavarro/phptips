@@ -1,0 +1,31 @@
+{
+  "name": "marcionavarro/phptips012",
+  "description": "Manipulando Dados em Arquivo CSV com PHP | PHP Tips #012",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "2.0.7",
+    "fakerphp/faker": "2.0.x-dev",
+    "league/csv": "9.21.0",
+    "ext-pdo": "*"
+  }
+}
