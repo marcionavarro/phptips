@@ -1,0 +1,28 @@
+{
+  "name": "marcionavarro/phptips013",
+  "description": "TRABALHANDO COM REQUISIÇÕES AJAX EM MVC | PHP Tips #013",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Navarro",
+      "email": "contato@marcionavarro.com.br",
+      "role": "Developer",
+      "homepage": "https://www.marcionavarro.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "2.0.2",
+    "coffeecode/datalayer": "2.0.7",
+    "league/plates": "v3.x-dev",
+    "ext-json": "*"
+  }
+}
